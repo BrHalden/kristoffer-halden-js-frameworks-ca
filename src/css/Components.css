@@ -1,0 +1,16 @@
+
+
+.gameContainer {
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    background-position: center;
+    margin: 20px 2.5%;
+}
+.gamesList {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
