@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import GameItem from './GameItem.js'
-import { API_URL } from "../imports/api.js";
+import { API_URL } from "../../constants/api.js";
 
 export default function CharacterList() {
     const [games, setGames] = useState([]);
