@@ -7,3 +7,10 @@ export function apiTest() {
             console.log(data);
         })
 }
+export function apiTest2 () {
+    fetch(API_URL + '/' + '4200')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+        })
+}

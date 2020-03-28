@@ -1,6 +1,5 @@
-
-
 .gameContainer {
+    position: relative;
     color: rgb(0, 0, 0);
     background-size: cover;
     height: 300px;
