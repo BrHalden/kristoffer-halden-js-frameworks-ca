@@ -1,0 +1,25 @@
+.big-margin-top {
+    margin-top: 40px;
+}
+.margin-top {
+    margin-top: 20px;
+}
+.margin-bot {
+    margin-bottom: 20px;
+}
+.align-left {
+    text-align: left;
+}
+.error {
+    color:red;
+    font-style: italic;
+    font-size: 14px;
+}
+.hidden {
+    visibility: hidden; 
+}
+.form-accepted {
+    color: green;
+    font-style: italic;
+    font-size: 14px;
+}
