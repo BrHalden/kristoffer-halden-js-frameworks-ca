@@ -18,7 +18,6 @@ export default function ListGames() {
             })
             .catch(error => console.log(error));
     }, []);
-    console.log(games)
     const filterGames = function(e) {
 		const searchValue = e.target.value.toLowerCase();
 		const filteredArray = games.filter(function(game) {
@@ -38,10 +37,9 @@ export default function ListGames() {
             <Row>
                 {filteredGames.map(game => {
                     const {id, name, background_image, released, rating} = game;
-                    //console.log(id)
                     return (
-                        <Col>
-                            <GameItem 
+                        <Col key={id} >
+                            <GameItem
                             id={id}
                             name={name} 
                             image={background_image} 

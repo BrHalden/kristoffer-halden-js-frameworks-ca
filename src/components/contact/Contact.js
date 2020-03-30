@@ -26,7 +26,7 @@ export default function Contact (props) {
     }
 
     return (
-        <Form className="big-margin-top" onSubmit={handleSubmit(onSubmit)}>
+        <Form className="big-margin-top" onSubmit={handleSubmit(onSubmit)} style={{height: '100%'}}>
             <Row className="align-left">
                 <Col>
                     <Form.Label>First Name</Form.Label>

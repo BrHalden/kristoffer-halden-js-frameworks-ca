@@ -7,7 +7,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 
 function GameItem({id, image, name, rating, release }){
     return (
-        <Card style={{ width: '18rem', marginTop: '20px'}}>
+        <Card key={id} style={{ width: '18rem', marginTop: '20px'}}>
             <Card.Img variant="top" src={image} style={{width: '100%', height: '200px', objectFit: 'cover', textAlign: 'center'}} />
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
@@ -22,16 +22,6 @@ function GameItem({id, image, name, rating, release }){
                     </Link>
                 </Card.Body>
         </Card>
-            /*<div style={{width: '200px'}} className="gameContainer" key={id} style={{backgroundImage: "url(" + image + ")"}}>
-                <h2>{name}</h2>
-                <p>Released: {release}</p>
-                <p>Rating {rating} / 5</p>
-                <Link to={"specific/" + id}>
-					<Button variant="secondary" block>
-						Read More
-					</Button>
-				</Link>
-            </div>*/
     )
 }
 GameItem.propTypes = {

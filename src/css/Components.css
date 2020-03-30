@@ -13,18 +13,6 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.footer {
-    position: relative;
-    margin-top: 40px;
-    background-color: #343A40;
-    color: #FAFAFA;
-    height: 100px;
-}
-.footer > p {
-    position: relative;
-    bottom: 0;
-    padding-top: 50px;
-}
 .specific_text {
     text-align: left;
     column-count: 3;
@@ -32,4 +20,7 @@
 .hero {
     height: 400px;
     background-size: cover;
+}
+.App {
+    margin-bottom: 40px;
 }

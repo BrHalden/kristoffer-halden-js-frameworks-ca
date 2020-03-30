@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 import Home from "../home/Home";
 import Contact from "../contact/Contact";
 import Specific from '../specific/Specific'
-import Footer from './Footer.js'
+
 
 function Layout() {
 	return (
