@@ -50,9 +50,9 @@ export default function Contact (props) {
                 {errors.message && <p className="error">Message must be 10 or more characters long</p>}
             </Form.Group>
             <Button variant="dark" type="submit">
-                Submit
+                Submit<p className="hidden form-accepted">Your message was sent</p>
             </Button>
-            <p className="hidden form-accepted">Your message was sent</p>
+            
         </Form>
     )
 }
